@@ -1,0 +1,54 @@
+MVMU Type : Digital_V2
+Access and energy distribution of dynamic energy: 
+Component                 num_access              percent
+tile_control                8225973               0.47 %
+edctrl                      573577                0.31 %
+xbOutmem                    0                     0.0 %
+xbar_mtvm                   0                     0.0 %
+edram_bus                   579401                1.98 %
+xbar_rd                     0                     0.0 %
+xbar_op                     0                     0.0 %
+edram                       579401                5.69 %
+xbar_mvm                    1092                  87.6 %
+adc                         0                     0.0 %
+imem_t                      752                   0.00 %
+noc_inter                   0                     0.0 %
+core_control                1642664               0.46 %
+mux2                        17891328              0.0 %
+mux1                        17891328              0.0 %
+xbInmem_wr                  139264                0.02 %
+alu_sna                     20127744              1.03 %
+dac                         0                     0.0 %
+noc_intra                   92080                 1.69 %
+alu_mul                     6144                  0.00 %
+snh                         0                     0.0 %
+xbar_wr                     0                     0.0 %
+dmem                        798592                0.52 %
+imem                        6812                  0.01 %
+alu_act                     10240                 0.00 %
+edctrl_counter              13824                 0.01 %
+xbInmem_rd                  0                     0.0 %
+alu_other                   132096                0.04 %
+alu_div                     0                     0.0 %
+rbuff                       6528                  0.06 %
+
+leakage_power: 89175.0839654
+node_area: 28145.8778477
+leakage_energy: 0.00398791127813
+tile_area: 167.387046713
+core_area: 20.8975692013
+dynamic_energy: 8.75053663447e-05
+total_energy: 0.00407541664448
+average_power: 42637.4631941
+time: 9.5583e-05
+cycles: 95583
+peak_power: 94843.9321822
+network packet injection rate: 0.000203263879859
+number of tiles mapped: 23
+
+# INFERENCE ON LSTM MODEL WITH 95583 INPUTS WITH RANDOM WEIGHTS
+# CONFIG
+	INPUT - 1024
+	HL - 1024
+	OUT - 1024
+	TOTAL PARAMETERS - 3148800

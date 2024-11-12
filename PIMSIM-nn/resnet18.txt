@@ -1,0 +1,31 @@
+Loading Inst and Config --- 
+Load finish
+Reading Instructions From File --- 
+Read finish
+Start Simulation --- 
+Progress --- <10%>
+Progress --- <20%>
+Progress --- <30%>
+Progress --- <40%>
+Progress --- <50%>
+Progress --- <60%>
+Progress --- <70%>
+Progress --- <80%>
+Progress --- <90%>
+Simulation Finish
+simulator execution time:80.7506s
+|*************** Simulation Report ***************|
+Basic Information:
+  - config file:        ../example/config/latency_config.json
+  - inst file:          ../example/resnet18.gz
+  - verbose level:      0
+  - core count:         64
+  - simulation mode:    0
+  - simulation time:    100 ms
+Chip Simulation Result:
+  - output count:       4 samples
+  - throughput:         40 samples/s
+  - average latency:    25 ms
+  - average power:      65.9153894 mW
+  - average energy:     1647884735 pJ/it
+

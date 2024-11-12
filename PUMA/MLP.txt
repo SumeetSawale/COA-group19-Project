@@ -1,0 +1,58 @@
+MVMU Type : Digital_V2
+Access and energy distribution of dynamic energy: 
+Component                 num_access              percent
+tile_control                239525                0.15 %
+edctrl                      26609                 0.16 %
+xbOutmem                    0                     0.0 %
+xbar_mtvm                   0                     0.0 %
+edram_bus                   26898                 1.04 %
+xbar_rd                     0                     0.0 %
+xbar_op                     0                     0.0 %
+edram                       26898                 2.99 %
+xbar_mvm                    102                   92.7 %
+adc                         0                     0.0 %
+imem_t                      45                    0.00 %
+noc_inter                   0                     0.0 %
+core_control                89823                 0.29 %
+mux2                        1671168               0.0 %
+mux1                        1671168               0.0 %
+xbInmem_wr                  11592                 0.02 %
+alu_sna                     1880064               1.09 %
+dac                         0                     0.0 %
+noc_intra                   4143                  0.86 %
+alu_mul                     0                     0.0 %
+snh                         0                     0.0 %
+xbar_wr                     0                     0.0 %
+dmem                        62534                 0.46 %
+imem                        608                   0.01 %
+alu_act                     1746                  0.00 %
+edctrl_counter              1078                  0.01 %
+xbInmem_rd                  0                     0.0 %
+alu_other                   10338                 0.03 %
+alu_div                     0                     0.0 %
+rbuff                       338                   0.03 %
+
+leakage_power: 11631.5326911
+node_area: 28145.8778477
+leakage_energy: 0.00011620890765
+tile_area: 167.387046713
+core_area: 20.8975692013
+dynamic_energy: 7.72025947498e-06
+total_energy: 0.000123929167125
+average_power: 4543.85741459
+time: 2.7274e-05
+cycles: 27274
+peak_power: 12370.9476759
+network packet injection rate: 3.68831994189e-05
+number of tiles mapped: 3
+
+
+# INfERENCE ON 30000 INPUTS TO 4 LAYER MLP TRAINED ON MNIST DATASET
+# LAYER CONFIG 
+	INPUT - 784
+	HL1 - 1024
+	HL2 - 512
+	HL3 - 200
+	HL4 - 10
+	OUT - 1
+	TOTAL PARAMETERS - 1433261
